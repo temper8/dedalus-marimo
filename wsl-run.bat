@@ -1,0 +1,1 @@
+wsl --cd ~/dedalus-marimo -e bash -c "~/.local/bin/uv run marimo edit"
