@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.14.13"
+__generated_with = "0.18.4"
 app = marimo.App(width="medium")
 
 
@@ -12,8 +12,7 @@ def _():
 
 @app.cell
 def _(mo):
-    mo.md(
-        r"""
+    mo.md(r"""
     Dedalus script simulating the viscous shallow water equations on a sphere. This
     script demonstrates solving an initial value problem on the sphere. It can be
     ran serially or in parallel, and uses the built-in analysis framework to save
@@ -28,8 +27,7 @@ def _(mo):
     To run and plot using e.g. 4 processes:
         $ mpiexec -n 4 python3 shallow_water.py
         $ mpiexec -n 4 python3 plot_sphere.py snapshots/*.h5
-    """
-    )
+    """)
     return
 
 
@@ -124,7 +122,6 @@ def _():
         raise
     finally:
         solver.log_stats()
-
     return
 
 

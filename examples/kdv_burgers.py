@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.14.13"
+__generated_with = "0.18.4"
 app = marimo.App(width="medium")
 
 
@@ -12,8 +12,7 @@ def _():
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(
-        r"""
+    mo.md(r"""
     Dedalus script simulating the 1D Korteweg-de Vries / Burgers equation.
     This script demonstrates solving a 1D initial value problem and produces
     a space-time plot of the solution. It should take just a few seconds to
@@ -23,8 +22,7 @@ def _(mo):
     ```
         dt(u) + u*dx(u) = a*dx(dx(u)) + b*dx(dx(dx(u)))
     ```
-    """
-    )
+    """)
     return
 
 
