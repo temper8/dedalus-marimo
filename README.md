@@ -1,9 +1,9 @@
 # dedalus-marimo
-Dedalus and marimo
+Как установить Dedalus and marimo под Ubumtu. Так же работает под WSL
 
-## Clone this repo
+### Clone this repo
 ```
-git clone ...
+git clone https://github.com/temper8/dedalus-marimo.git
 ```
 
 ### Установите пакеты, нужные для dedalus:
