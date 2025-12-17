@@ -8,7 +8,7 @@ git clone https://github.com/temper8/dedalus-marimo.git
 
 ### Установите пакеты, нужные для dedalus:
 ```
-sudo apt install libopenmpi-dev openmpi-bin libfftw3-mpi-dev
+sudo apt install libopenmpi-dev openmpi-bin libfftw3-dev libfftw3-mpi-dev
 ```
 ## Найдите расположение mpi.h
 ```
